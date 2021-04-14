@@ -5,7 +5,7 @@ VisualStudioVersion = 16.0.31112.23
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Perimeter", "..\Perimeter\Perimeter.csproj", "{28109A7B-5136-48B2-89EA-DA66ABC75A30}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Vector", "..\Vector\Vector.csproj", "{4FFA51A0-AF0D-4FB6-B835-9C9E20AAAABB}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Vectors", "..\Vector\Vectors.csproj", "{4FFA51A0-AF0D-4FB6-B835-9C9E20AAAABB}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Shapes", "..\Shapes\Shapes.csproj", "{D1AB4A5A-D183-45D1-B934-2E7BDC7ECB39}"
 EndProject
