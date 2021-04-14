@@ -22,12 +22,12 @@ namespace Perimeter
             get { return y; }
             private set { y = value; }
         }
-        public string pointName { get; }
+        public string PointName { get; }
         public Point(int xCor, int yCor, string pName) //Конструктор
         {
             X = xCor;
             Y = yCor;
-            pointName = pName;
+            PointName = pName;
         }
     }
 }

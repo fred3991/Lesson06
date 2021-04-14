@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Perimeter
 {
-    class Polygon
+    public class Polygon
     {
         //
         private List<Point> _points;
@@ -32,7 +32,7 @@ namespace Perimeter
 
         public double Perimeter() //Метод для расчета периметра многоугольника
         {
-            double perimeterValue = 0; // инициализируем переменную
+            double perimeterValue; // инициализируем переменную
 
             int pointCount = _points.Count; // количество точек
 
