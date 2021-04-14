@@ -9,19 +9,12 @@ namespace UnitTest
     public class UnitTestClass
     {
         //
-
-
-
-
         [Fact] //[Theory] тест с параметрами - метод с параметрами
         public void BoxVolumeTest()
         {
             // Arrange - установка начальных параметров
-
             Box box = new Box(10);
-
             double result = box.Volume();
-
             Assert.Equal(1000.0, result, 6);
         }
 
