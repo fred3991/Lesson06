@@ -13,6 +13,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UnitTest", "..\UnitTest\Uni
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PerimeterUnitTest", "PerimeterUnitTest\PerimeterUnitTest.csproj", "{A52FF935-9C09-417F-901A-E961B9C7B0BB}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VectorsUnitTest", "VectorsUnitTest\VectorsUnitTest.csproj", "{6909A0E2-8047-40B7-8175-8130E180ED85}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{A52FF935-9C09-417F-901A-E961B9C7B0BB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A52FF935-9C09-417F-901A-E961B9C7B0BB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A52FF935-9C09-417F-901A-E961B9C7B0BB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6909A0E2-8047-40B7-8175-8130E180ED85}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6909A0E2-8047-40B7-8175-8130E180ED85}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6909A0E2-8047-40B7-8175-8130E180ED85}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6909A0E2-8047-40B7-8175-8130E180ED85}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

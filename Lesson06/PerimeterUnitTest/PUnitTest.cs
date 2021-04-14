@@ -5,7 +5,7 @@ using Perimeter;
 
 namespace PerimeterUnitTest
 {
-    public class UnitTest1
+    public class PUnitTest
     {
         /// <summary>
         /// тест проверки периметра треугольника
@@ -47,6 +47,17 @@ namespace PerimeterUnitTest
             Polygon fiveugolnik = new Polygon(firstPoint, secondPoint, threePoint, fourPoint, fivePoint);
             Assert.Equal(30.961, fiveugolnik.Perimeter(), 3);
         }
+
+
+        //Create Point
+        [Theory]        
+        [InlineData(10, 1)]
+        public void CreatePoint(int x, int y)
+        {
+            var point = new Point(x, y, "pointName");
+            Assert.True(point.X ==10 && point.Y==1);
+        }
+
 
 
     }
